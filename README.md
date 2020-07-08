@@ -12,7 +12,7 @@ To measure success, we will use perplexity and coherence, which are topic modell
 
 *Topic Coherence* measures score a single topic by measuring the degree of semantic similarity between high scoring words in the topic. These measurements help distinguish between topics that are semantically interpretable topics and topics that are artifacts of statistical inference. 
 
-* Initial Code adapted from Oguejio for Chibueze's NLP modelling article:
+* Initial Code and Sample Contract adapted from Oguejio Chibueze's NLP modelling article:
 https://towardsdatascience.com/nlp-for-topic-modeling-summarization-of-legal-documents-8c89393b1534
 * Topic Modelling metrics explanation:
 https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-allocation-lda-7d57484bb5d0
