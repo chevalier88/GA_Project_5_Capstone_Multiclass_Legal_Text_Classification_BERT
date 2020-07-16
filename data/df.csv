@@ -1,404 +1,312 @@
 contract_text,cleaned_text
-"TRADEMARK AND DOMAIN NAME AGREEMENT 
-
-This agreement (the “Agreement”) is by and between ____________________________ 
-
- 
- 
-(“Party”) and Eclipse Foundation, Inc. (“Eclipse”) and is effective as of [______] [_____],  
-201[__] (the “Effective Date”). 
- 
-
-WHEREAS, Party is the owner of certain trademarks identified in Exhibit A (the 
-
-“Trademarks”) and of certain domain names identified in Exhibit A (the “Domain Names”); 
-
- 
-WHEREAS, Party is desirous of Eclipse to initiate a project or working group with a 
-
-name based on the Trademark (the “Project Initiation”); 
-
- 
-WHEREAS, to accommodate the Project Initiation, Party desires to transfer all of Party’s 
-
-rights, title and interest in and to the Trademarks to Eclipse and to thereafter have certain 
-continuing usage rights of the Trademarks; 
-
- 
-WHEREAS, to accommodate the Project Initiation, the Parties may mutually agree to 
-have any related Domain Names initially redirect to a URL designated by Eclipse and that the 
-Domain Names are subsequently transferred to Eclipse; 
-
- 
-In consideration of the foregoing and for other good and valuable consideration, the 
-
-receipt and sufficiency of which is hereby acknowledged, the parties agree as follows: 
-
- 
-1. 
-
-Trademark Assignment.  Party irrevocably assigns, grants and transfers to 
-
-Eclipse, all of Party’s right, title, and interest in and to the Trademarks, including all common 
-law rights, and any trademark registrations and applications, along with the goodwill of the 
-business symbolized by use of the Trademarks, and the right to sue third parties for and recover 
-damages from future infringement of the Trademarks, the same to be held and enjoyed by 
-Eclipse for its own use and enjoyment and the use and enjoyment of its successors, assigns or 
-other legal representatives, as fully and entirely as the same would have been held and enjoyed 
-by Party if this assignment had not been made (the “Assignment”).   
-
-To the extent that Party is seeking to perfect the ownership of the Trademarks and 
-
-Party’s ownership of the Trademarks has not been perfected by the Effective Date, Party agrees 
-to promptly assign ownership of the Trademarks to Eclipse, in accordance with the terms of this 
-Agreement, as soon as such ownership has been perfected.  Party further agrees to take all steps 
-necessary to promptly expedite any perfection of their ownership in and to the Trademarks.   
-Party hereby authorizes the Commissioner of Patents and Trademarks of the United States, and 
-any official of any other country empowered to issue trademark registrations, to record this 
-Assignment, and to issue or transfer said Trademarks to Eclipse as owner of all right, title and 
-interest therein, or otherwise as Eclipse may direct, in accordance with the terms of the 
-Assignment. 
-
-2. 
-
-Trademark Usage.  Eclipse hereby confirms that Party shall have all applicable 
-rights  to use the Trademarks in accordance with the then current version of the Guidelines for 
-Eclipse Logo and Trademarks currently available at: 
-
- 
-
-Page 1 of 5 
-
-http://www.eclipse.org/legal/logo_guidelines.php, as may be amended from time to time  (the 
-“Trademark Guidelines”).  
-
-3. 
-
-Domain Names.  Upon the mutual agreement of the Parties, as of the date Eclipse 
-
-formally approves the Project (the “Project Effective Date”), Party shall cause any related 
-Domain Names (including all sub-domains and related URLs) to redirect directly to the URLs 
-designated by Eclipse with no interstitial content.  Within ten (10) days of the Project Effective 
-Date, Party shall transfer to Eclipse Party’s entire right, title and interest to the Domain Names.   
-
-4. 
-
-Execution and Delivery.  Upon Eclipse’s request, Party agrees that it will take 
-such actions and execute such documents (including, without limitation, the prompt execution 
-and delivery of documents in recordable form or testifying as to any material fact or thing and 
-including the transfer of any domain names through appropriate communications with domain 
-name registrars) as may be necessary to vest in and secure unto Eclipse the full right, title and 
-interest in and to the Trademarks and Domain Names and to protect and enforce the Trademarks. 
-
-5. 
-
-Representations and Warranties.  Party represents and warrants that Party has the 
-full right to convey the entire right, title and interest herein assigned, and that Party will not take 
-any action, use any trademark or domain name, or execute any instrument or grant or transfer 
-any rights, title or interests inconsistent with the rights, title and interests assigned herein. 
-
-6. 
-
-Warranty Disclaimer.  PARTY MAKES NO WARRANTIES, EXPRESS OR 
-
-IMPLIED, TO ANY PERSON OR ENTITY WITH RESPECT TO THE TRADEMARKS OR 
-ANY RELATED MATERIALS PROVIDED HEREUNDER, ALL OF WHICH ARE 
-PROVIDED ""AS IS,"" AND DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING 
-WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
-PARTICULAR PURPOSE, TITLE AND NONINFRINGEMENT. 
-
-7. 
-
-Limitation of Liability.  IN NO EVENT WILL EITHER PARTY BE LIABLE 
-
-FOR ANY SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING FROM 
-OR RELATED TO THE USE OF THE TRADEMARKS, EVEN IF ADVISED OF THE 
-POSSIBILITY OF SUCH DAMAGES.   
-
-8. 
-
-Miscellaneous. 
-
-a. 
-
-b. 
-
-c. 
-
-Independent Contractors.  The parties hereto are independent contractors 
-and are not partners, joint venturers or otherwise affiliated, and neither 
-party has any right or authority to bind the other in any way. 
-
-Assignment.  Eclipse may not assign this Agreement or any of its rights or 
-obligations under this Agreement without the prior written consent of 
-Party. 
-
-Notices.  All notices, requests, demands and other communications 
-required or permitted to be given under this Agreement shall be in writing 
-and shall be deemed to have been duly given only if personally delivered, 
-delivered by a major commercial rapid delivery courier service with 
-tracking capabilities, costs prepaid, or mailed by certified or registered 
-
- 
-
-Page 2 of 5 
-
-If to Party: 
- 
- 
-
- 
- 
-
-If to Eclipse: 
- 
- 
- 
-
- 
- 
- 
-
- 
-
- 
-
-d. 
-
-e. 
-
-f. 
-
-g. 
-
-h. 
-
-mail, return receipt requested, postage prepaid, to a party at the address set 
-forth below or such other address as a party last provided to the other by 
-written notice: 
-
- 
- 
- 
-
- 
- 
- 
- 
-
- 
-
-___________________________ 
-___________________________ 
-___________________________ 
-
-Eclipse Foundation, Inc. 
-102 Centrepointe Drive 
-Ottawa, Ontario 
-Canada, K2G 6B1 
-
- 
-
- 
-
- 
-
- 
-
-Modification and Waiver.  The failure of either party to enforce its rights 
-or to require performance by the other party of any term or condition of 
-this Agreement shall not be construed as a waiver of such rights or of its 
-right to require future performance of that term or condition.  Any 
-amendment or modification of this Agreement or any waiver of any 
-breach of any term or condition of this Agreement must be in a writing 
-signed by both parties in order to be effective and shall not be construed as 
-a waiver of any continuing or succeeding breach of such term or 
-condition, a waiver of the term or condition itself or a waiver of any right 
-under this Agreement. 
-
-Governing Law.  This Agreement shall be governed and interpreted under 
-the laws of the State of New York without regard to the conflicts of law 
-provisions thereof. 
-
-Headings.  Headings and captions are for convenience of reference only 
-and shall not be deemed to interpret, supersede or modify any provisions 
-of this Agreement. 
-
-Severability.  In the event that any provision of this Agreement shall be 
-determined by a court of competent jurisdiction to be illegal or 
-unenforceable, that provision will be limited or eliminated to the minimum 
-extent necessary so that this Agreement shall otherwise remain in full 
-force and effect and enforceable. 
-
-Entire Agreement.  Upon execution by both parties, this Agreement shall 
-constitute the entire agreement between the parties with respect to the 
-subject matter hereof and supersedes all discussions, negotiations, 
-agreements and past dealings, either oral or written, between or among the 
-parties relating to the subject matter hereof. 
-
-Page 3 of 5 
-
- 
+" 
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
-
-i. 
-
-Non-Exclusive Remedies.  The rights and remedies of a party set forth 
-herein are not exclusive, the exercise thereof shall not constitute an 
-election of remedies and the aggrieved party shall in all events be entitled 
-to seek whatever additional remedies may be available in law or in equity. 
-
- 
-Each party represents and warrants that it has full right, power and authority to enter into this 
-Agreement and perform all of its obligations hereunder. 
- 
-IN WITNESS WHEREOF, the parties hereto have each caused this Agreement to be executed by 
-their authorized representatives. 
- 
-COMPANY NAME:  ____________________  
- 
-Dated: _________________________ 
- 
-                                                                                       Name: __________________________ 
- 
-                                                                                         Title: __________________________ 
- 
- 
-ECLIPSE FOUNDATION, INC. 
- 
-Dated: __________________________ 
- 
-                                                                                        Name: __________________________ 
- 
-                                                                                          Title: __________________________ 
- 
-
- Signature: __________________________ 
-
- Signature: __________________________ 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Page 4 of 5 
-
-Exhibit A 
-
-1. 
-
-Trademarks: 
-
-Registered 
-
-Mark 
-
-Serial No. 
-
-Filing Date 
-
-Reg. No. 
-
-Jurisdiction 
-of 
-Registration 
-
-Reg. Date. 
-
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
-
- 
 
-Unregistered 
-
-[List all trademarks] 
-
  
-
  
-
  
 
  
 
  
-
-2. 
-
-Domain Names: 
-
-[List Domain Names to be transferred (if any)] 
 
  
 
  
- 
- 
- 
- 
- 
- 
 
  
-
-Page 5 of 5 
 
-",trademark domain name agreement agreement agreement party eclipse foundation inc eclipse effective effective date whereas party owner certain trademark identified exhibit trademark certain domain name identified exhibit domain name whereas party desirous eclipse initiate project working group name based trademark project initiation whereas accommodate project initiation party desire transfer party right title interest trademark eclipse thereafter certain continuing usage right trademark whereas accommodate project initiation party may mutually agree related domain name initially redirect url designated eclipse domain name subsequently transferred eclipse consideration foregoing good valuable consideration receipt sufficiency hereby acknowledged party agree follows trademark assignment party irrevocably assigns grant transfer eclipse party right title interest trademark including common law right trademark registration application along goodwill business symbolized use trademark right sue third party recover damage future infringement trademark held enjoyed eclipse use enjoyment use enjoyment successor assigns legal representative fully entirely would held enjoyed party assignment made assignment extent party seeking perfect ownership trademark party ownership trademark perfected effective date party agrees promptly assign ownership trademark eclipse accordance term agreement soon ownership perfected party agrees take step necessary promptly expedite perfection ownership trademark party hereby authorizes commissioner patent trademark united state official country empowered issue trademark registration record assignment issue transfer said trademark eclipse owner right title interest therein otherwise eclipse may direct accordance term assignment trademark usage eclipse hereby confirms party shall applicable right use trademark accordance current version guideline eclipse logo trademark currently available page http www eclipse org legal logo guideline php may amended time time trademark guideline domain name upon mutual agreement party date eclipse formally approves project project effective date party shall cause related domain name including sub domain related url redirect directly url designated eclipse interstitial content within ten day project effective date party shall transfer eclipse party entire right title interest domain name execution delivery upon eclipse request party agrees take action execute document including without limitation prompt execution delivery document recordable form testifying material fact thing including transfer domain name appropriate communication domain name registrar may necessary vest secure unto eclipse full right title interest trademark domain name protect enforce trademark representation warranty party represents warrant party full right convey entire right title interest herein assigned party take action use trademark domain name execute instrument grant transfer right title interest inconsistent right title interest assigned herein warranty disclaimer party make warranty express implied person entity respect trademark related material provided hereunder provided disclaims implied warranty including without limitation warranty merchantability fitness particular purpose title noninfringement limitation liability event either party liable special incidental consequential damage arising related use trademark even advised possibility damage miscellaneous b c independent contractor party hereto independent contractor partner joint venturer otherwise affiliated neither party right authority bind way assignment eclipse may assign agreement right obligation agreement without prior written consent party notice notice request demand communication required permitted given agreement shall writing shall deemed duly given personally delivered delivered major commercial rapid delivery courier service tracking capability cost prepaid mailed certified registered page party eclipse e f g h mail return receipt requested postage prepaid party address set forth address party last provided written notice eclipse foundation inc centrepointe drive ottawa ontario canada k g b modification waiver failure either party enforce right require performance party term condition agreement shall construed waiver right right require future performance term condition amendment modification agreement waiver breach term condition agreement must writing signed party order effective shall construed waiver continuing succeeding breach term condition waiver term condition waiver right agreement governing law agreement shall governed interpreted law state new york without regard conflict law provision thereof heading heading caption convenience reference shall deemed interpret supersede modify provision agreement severability event provision agreement shall determined court competent jurisdiction illegal unenforceable provision limited eliminated minimum extent necessary agreement shall otherwise remain full force effect enforceable entire agreement upon execution party agreement shall constitute entire agreement party respect subject matter hereof supersedes discussion negotiation agreement past dealing either oral written among party relating subject matter hereof page non exclusive remedy right remedy party set forth herein exclusive exercise thereof shall constitute election remedy aggrieved party shall event entitled seek whatever additional remedy may available law equity party represents warrant full right power authority enter agreement perform obligation hereunder witness whereof party hereto caused agreement executed authorized representative company name dated name title eclipse foundation inc dated name title signature signature page exhibit trademark registered mark serial filing date reg jurisdiction registration reg date unregistered list trademark domain name list domain name transferred page
+ 
+
+ 
+
+M-100310 
+M-123302
+
+1st Advantage Federal Credit Union 
+VISA Platinum Credit Card Agreement 
+1st Advantage Federal Credit Union 
+VISA Platinum Credit Card Agreement 
+
+calculated by adding 4.5%-14.5% (the “spread”) to the Prime rate (the “index”) in effect on the first business day of the month immediately preceding January 1, April 1, 
+calculated by adding 4.5%-14.5% (the “spread”) to the Prime rate (the “index”) in effect on the first business day of the month immediately preceding January 1, April 1, 
+PERCENTAGE  RATE)  is  calculated  by  adding  4.5%-14.5% (the  “spread”)  to  the  Prime  rate  (the  “index”)  in  effect  at  the time of  the  review.  The  Finance 
+PERCENTAGE  RATE)  is  calculated  by  adding  4.5%-14.5% (the  “spread”)  to  the  Prime  rate  (the  “index”)  in  effect  at  the time of  the  review.  The  Finance 
+
+ 
+ 
+ 
+ 
+M-123302
+M-100310 
+ 
+In this Agreement the words “you” and “your” mean each and all of those who apply for the card or who sign this Agreement, “Card” means the VISA Platinum Card and 
+ 
+duplicates and renewals we issue. Everyone who receives, signs, or uses a card issued under this Agreement must be a member of the Credit Union. “Account” means your 
+VISA Platinum Credit Card Line of Credit Account with us. “We,” “us,” and “issuer” mean this Credit Union (or Credit Union Designee). 
+M-123302
+1.  Responsibility: If we issue a card, you agree to repay all debts, related fees, and the Finance Charge arising from the use of the card and the card account. For example, you are 
+In this Agreement the words “you” and “your” mean each and all of those who apply for the card or who sign this Agreement, “Card” means the VISA Platinum Card and 
+responsible for charges made by yourself, your spouse, and minor children. You are also responsible for charges made by anyone else to whom you give the card. Your obligation to pay the 
+duplicates and renewals we issue. Everyone who receives, signs, or uses a card issued under this Agreement must be a member of the Credit Union. “Account” means your 
+account balance continues even though an agreement, divorce decree or judgment to which we are not a party may direct you or one of the other persons responsible to pay the account. Any 
+person using the card is jointly responsible with you for charges he or she makes, but if that person signs the card he or she becomes a party to this Agreement and is also jointly responsible for 
+VISA Platinum Credit Card Line of Credit Account with us. “We,” “us,” and “issuer” mean this Credit Union (or Credit Union Designee). 
+all charges on the account, including yours. 
+1.  Responsibility: If we issue a card, you agree to repay all debts, related fees, and the Finance Charge arising from the use of the card and the card account. For example, you are 
+2.  Credit Line: If we approve your application, we will establish a self-replenishing Line of Credit for you and notify you of its account when we issue the card. You agree not to let the 
+responsible for charges made by yourself, your spouse, and minor children. You are also responsible for charges made by anyone else to whom you give the card. Your obligation to pay the 
+account balance continues even though an agreement, divorce decree or judgment to which we are not a party may direct you or one of the other persons responsible to pay the account. Any 
+account balance exceed this approved Credit Line. Each payment you make on the account will restore your Credit Line by the amount of the payment which is applied to the principal. You 
+person using the card is jointly responsible with you for charges he or she makes, but if that person signs the card he or she becomes a party to this Agreement and is also jointly responsible for 
+may request an increase in your Credit Line only by written application to us, which must be approved by our Loan Team. By giving you written notice, our Loan Team may reduce your Credit 
+all charges on the account, including yours. 
+Line from time to time, or with good cause, revoke your card and terminate this Agreement. Good  cause includes your failure to comply with this Agreement or our adverse reevaluation of 
+your credit worthiness. You may also terminate this Agreement at any time; termination by either of us does not affect your obligation to pay the account balance. The cards remain our property 
+2.  Credit Line: If we approve your application, we will establish a self-replenishing Line of Credit for you and notify you of its account when we issue the card. You agree not to let the 
+and you must recover and surrender to us all cards upon request and upon termination of this Agreement. 
+account balance exceed this approved Credit Line. Each payment you make on the account will restore your Credit Line by the amount of the payment which is applied to the principal. You 
+3.  Using the Card: Any financial service provided by 1st Advantage Federal Credit Union may be used for any transaction permitted by law. You agree that illegal use of any financial service 
+may request an increase in your Credit Line only by written application to us, which must be approved by our Loan Team. By giving you written notice, our Loan Team may reduce your Credit 
+Line from time to time, or with good cause, revoke your card and terminate this Agreement. Good  cause includes your failure to comply with this Agreement or our adverse reevaluation of 
+will be deemed an action of default and/or breach of contract and such service and/or other related services may be terminated at 1st Advantage Federal Credit Union’s discretion. You further 
+agree, should illegal use occur, to waive the right to sue 1st Advantage Federal Credit Union for such illegal activity directly or indirectly related to it. You also agree to indemnify and hold 1st 
+your credit worthiness. You may also terminate this Agreement at any time; termination by either of us does not affect your obligation to pay the account balance. The cards remain our property 
+Advantage Federal Credit Union harmless from any suits or other legal action or liability directly or indirectly resulting from such illegal use.  To make a purchase or cash advance, present the 
+and you must recover and surrender to us all cards upon request and upon termination of this Agreement. 
+card to a participating VISA plan merchant, to us or to another financial institution and sign the cash advance voucher which will be imprinted with your card. You will receive a copy of the 
+3.  Using the Card: Any financial service provided by 1st Advantage Federal Credit Union may be used for any transaction permitted by law. You agree that illegal use of any financial service 
+voucher, which you should retain to verify your monthly statement. We reserve the right to make a reasonable charge for each photostatic copy you may request. 
+will be deemed an action of default and/or breach of contract and such service and/or other related services may be terminated at 1st Advantage Federal Credit Union’s discretion. You further 
+4.  Foreign Transaction Fee (FTF):  Purchases and cash withdrawals made in foreign currencies will be debited from your account in U.S. dollars. The exchange rate used to convert foreign 
+agree, should illegal use occur, to waive the right to sue 1st Advantage Federal Credit Union for such illegal activity directly or indirectly related to it. You also agree to indemnify and hold 1st 
+Advantage Federal Credit Union harmless from any suits or other legal action or liability directly or indirectly resulting from such illegal use.  To make a purchase or cash advance, present the 
+currency transactions to U.S. dollars is either a government-mandated exchange rate or a wholesale exchange rate and is selected by Visa. The rate Visa uses for a particular transaction is the 
+card to a participating VISA plan merchant, to us or to another financial institution and sign the cash advance voucher which will be imprinted with your card. You will receive a copy of the 
+rate Visa selects for the applicable currency on the day the transaction is processed. This rate may differ from the rate applicable on the date the transaction occurred or was posted to your 
+voucher, which you should retain to verify your monthly statement. We reserve the right to make a reasonable charge for each photostatic copy you may request. 
+account. A fee of up to 1% will be charged on all transactions completed outside of the United States, where the cardholder’s country code differs from the merchant’s country code. A fee of 
+5.  Finance Charge: In order to avoid a finance charge on purchases made since your last statement date, you must pay the Total new Balance shown on your statement within 25 days of 
+up to 1% will be charged on all transactions completed in a foreign currency. All fees are calculated based on the transaction amount after it is converted to U.S. dollars. These fees are charged 
+the statement closing date. Otherwise, finance charge on purchases will be calculated from the beginning of the next statement period on previously billed but unpaid purchases from the 
+4.  Foreign Transaction Fee (FTF):  Purchases and cash withdrawals made in foreign currencies will be debited from your account in U.S. dollars. The exchange rate used to convert foreign 
+except where excluded. 
+date they are posted to your account. Cash advances are always subject to finance charge from the date of the transaction. The FInAnCE ChArgE (ANNUAL PERCENTAGE RATE) is 
+currency transactions to U.S. dollars is either a government-mandated exchange rate or a wholesale exchange rate and is selected by Visa. The rate Visa uses for a particular transaction is the 
+5.       FINANCE  CHARGE:    In  order  to  avoid  a  finance  charge  on  purchases  made  since  your  last  statement  date,  you  must  pay  the  Total  new  Balance  shown  on  your 
+rate Visa selects for the applicable currency on the day the transaction is processed. This rate may differ from the rate applicable on the date the transaction occurred or was posted to your 
+account. A fee of up to 1% will be charged on all transactions completed outside of the United States, where the cardholder’s country code differs from the merchant’s country code. A fee of 
+statement   within   25   days   of   the   statement   closing   date.     Otherwise,   finance   charges   on   purchases   will   be   calculated   from   the   beginning   of   the   next   statement  
+5.  Finance Charge: In order to avoid a finance charge on purchases made since your last statement date, you must pay the Total new Balance shown on your statement within 25 days of 
+up to 1% will be charged on all transactions completed in a foreign currency. All fees are calculated based on the transaction amount after it is converted to U.S. dollars. These fees are charged 
+period on  previously  billed  but  unpaid  purchases  from  the  date  they  are  posted  to  your  account.     Cash  advances  are  always  subject  to  finance  charges  from  the  date  
+the statement closing date. Otherwise, finance charge on purchases will be calculated from the beginning of the next statement period on previously billed but unpaid purchases from the 
+July 1, and October 1. The FInAnCE ChArgE  will be applied to the average principal daily balances of purchase and cash advances of your account. If the index increases or decreases, the 
+except where excluded. 
+of  the transaction.    Your  Interest  rate  is  based  on  certain  credit-worthiness  criteria,  and  may  be  reviewed  annually  based  on  credit  history.    The Finance Charge (ANNUAL 
+date they are posted to your account. Cash advances are always subject to finance charge from the date of the transaction. The FInAnCE ChArgE (ANNUAL PERCENTAGE RATE) is 
+ANNUAL PERCENTAGE RATE and monthly periodic rate will increase and decrease for all existing balances on each January 1, April 1, July 1, and October 1. Because your minimum 
+(the “spread”) to the Prime rate  (the “index”) in effect on the first business day of the month immediately preceding January 1, April 1, 
+5.       FINANCE  CHARGE:    In  order  to  avoid  a  finance  charge  on  purchases  made  since  your  last  statement  date,  you  must  pay  the  Total  new  Balance  shown  on  your 
+payment remains the same, any increase in the ANNUAL PERCENTAGE RATE will increase the number of your payments, but will not increase the amount of your payments. We figure 
+statement   within   25   days   of   the   statement   closing   date.     Otherwise,   finance   charges   on   purchases   will   be   calculated   from   the   beginning   of   the   next   statement  
+the FInAnCE ChArgE  on your account by applying the periodic rate to the “average daily balance” of your account (including current transactions). To get the “average daily balance” we 
+period on  previously  billed  but  unpaid  purchases  from  the  date  they  are  posted  to  your  account.     Cash  advances  are  always  subject  to  finance  charges  from  the  date  
+Charge will be applied to the average principal daily balances of purchase and cash advances of your account.  The index will be reviewed and adjusted quarterly.  If the index increases 
+take the beginning balance of your account each day, add any new purchases and cash advances, excluding unpaid finance charges, and subtract any payments or credits. This gives us the 
+July 1, and October 1. The FInAnCE ChArgE  will be applied to the average principal daily balances of purchase and cash advances of your account. If the index increases or decreases, the 
+or decreases, the ANNUAL PERCENTAGE RATE and monthly periodic rate will increase and decrease for an existing balance (fixed rate balances prior to variable rate conversion 
+of  the transaction.    Your  Interest  rate  is  based  on  certain  credit-worthiness  criteria,  and  may  be  reviewed  annually  based  on  credit  history.    The Finance Charge (ANNUAL 
+ANNUAL PERCENTAGE RATE and monthly periodic rate will increase and decrease for all existing balances on each January 1, April 1, July 1, and October 1. Because your minimum 
+daily balance. Then we add up all the daily balances for the billing cycle and divide the total by the number of days in the billing cycle. This gives us the “average daily balance.” 
+(the “spread”) to the Prime rate  (the “index”) in effect on the first business day of the month immediately preceding January 1, April 1, 
+are grandfathered from index increases and decreases).  We figure the Finance Charge on your account by applying the monthly periodic rate to the “average daily balance” of your 
+payment remains the same, any increase in the ANNUAL PERCENTAGE RATE will increase the number of your payments, but will not increase the amount of your payments. We figure 
+account (including current transactions).   To get the  “average daily balance”  we take the beginning balance  of  your account each day, add any new purchases and cash advances, 
+the FInAnCE ChArgE  on your account by applying the periodic rate to the “average daily balance” of your account (including current transactions). To get the “average daily balance” we 
+excluding unpaid finance charges, and subtract any payments or credits.  This gives us the daily balance.  Then we add up all the daily balances for the billing cycle and divide the total by 
+Charge will be applied to the average principal daily balances of purchase and cash advances of your account.  The index will be reviewed and adjusted quarterly.  If the index increases 
+take the beginning balance of your account each day, add any new purchases and cash advances, excluding unpaid finance charges, and subtract any payments or credits. This gives us the 
+the number of days in the billing cycle.  This gives us the “average daily balance.” 
+or decreases, the ANNUAL PERCENTAGE RATE and monthly periodic rate will increase and decrease for an existing balance (fixed rate balances prior to variable rate conversion 
+daily balance. Then we add up all the daily balances for the billing cycle and divide the total by the number of days in the billing cycle. This gives us the “average daily balance.” 
+6.   Fees: 
+are grandfathered from index increases and decreases).  We figure the Finance Charge on your account by applying the monthly periodic rate to the “average daily balance” of your 
+account (including current transactions).   To get the  “average daily balance”  we take the beginning balance  of  your account each day, add any new purchases and cash advances, 
+excluding unpaid finance charges, and subtract any payments or credits.  This gives us the daily balance.  Then we add up all the daily balances for the billing cycle and divide the total by 
+the number of days in the billing cycle.  This gives us the “average daily balance.” 
+6.   Fees: 
+7.  NO USE: Inactive Visa accounts that have no purchase or cash activity may be closed without notice to you after 18 months of no activity. 
+8.  Monthly: Issuer will send to Cardholder, at monthly intervals determined by the Issuer, a statement reflecting for the prior monthly period all Visa Card and related Card transactions. Such 
+statement shall be deemed correct and accepted by the Cardholder and all holders of related Cards unless Issuer is notified to the contract in writing within 60 days of mailing such statement. 
+Each month you must pay at least the minimum payment shown on your statement within 25 days of the statement closing date. This Line of Credit will be repaid as follows: either the full 
+7.  NO USE: Inactive Visa accounts that have no purchase or cash activity may be closed without notice to you after 18 months of no activity. 
+amount billed shall be paid or at your option an installment equal to at least the required minimum balance billed. The required minimum monthly payment shall be the greater of (a) $25.00 
+(b) 3% of that portion of the outstanding balance that does not exceed your credit limit, plus any amount due. 
+8.  Monthly: Issuer will send to Cardholder, at monthly intervals determined by the Issuer, a statement reflecting for the prior monthly period all Visa Card and related Card transactions. Such 
+8a.  Payment Allocation: Subject to applicable law, your payments may be applied to what you owe the Credit Union in any manner the Credit Union chooses. 
+statement shall be deemed correct and accepted by the Cardholder and all holders of related Cards unless Issuer is notified to the contract in writing within 60 days of mailing such statement. 
+Each month you must pay at least the minimum payment shown on your statement within 25 days of the statement closing date. This Line of Credit will be repaid as follows: either the full 
+9.  Security Interest: Payments on your Account are secured by any security interest in any property securing your other obligations to the Credit Union, whether existing now or in 
+amount billed shall be paid or at your option an installment equal to at least the required minimum balance billed. The required minimum monthly payment shall be the greater of (a) $25.00 
+the future, except your household goods and your primary residence. Further, you hereby grant Credit Union security interest in all property purchased through this credit 
+(b) 3% of that portion of the outstanding balance that does not exceed your credit limit, plus any amount due. 
+plan, including a purchase-money security interest in any household goods purchased with an extension of credit upon this account. Also, you hereby grant Credit Union a pledge 
+8a.  Payment Allocation: Subject to applicable law, your payments may be applied to what you owe the Credit Union in any manner the Credit Union chooses. 
+of all shares and any other deposits which you have or may have in the future with the Credit Union, except for any deposit in an IRA or Keogh account. These security interests 
+shall secure faithful performance of all obligations arising under this Agreement, and the Credit Union shall have all of the rights of a secured party in accordance with the Virginia 
+9.  Security Interest: Payments on your Account are secured by any security interest in any property securing your other obligations to the Credit Union, whether existing now or in 
+Commercial Code and other applicable law. 
+the future, except your household goods and your primary residence. Further, you hereby grant Credit Union security interest in all property purchased through this credit 
+10.  Default: You will be in default if: (a) you fail to pay the Minimum Payment Due by the Payment Due Date: (b) if the Credit Union, in good faith, believes your ability to pay your account 
+plan, including a purchase-money security interest in any household goods purchased with an extension of credit upon this account. Also, you hereby grant Credit Union a pledge 
+of all shares and any other deposits which you have or may have in the future with the Credit Union, except for any deposit in an IRA or Keogh account. These security interests 
+is impaired: (c) your ability to repay is materially reduced by a change in your employment, by an increase in your obligations, by bankruptcy or insolvency proceedings involving you, by 
+shall secure faithful performance of all obligations arising under this Agreement, and the Credit Union shall have all of the rights of a secured party in accordance with the Virginia 
+your death, or (for community property state residents only) by a change in marital status or domicile: (d) you exceed your credit limit without our permission: (e) you have made a false or 
+Commercial Code and other applicable law. 
+misleading statement to us in your application or otherwise: (f) you are in default under any other agreement with us: or (g) you fail to perform any of your other obligations under the terms 
+11.  Interest Rate Adjustment (Default Rate): 1st Advantage Federal Credit Union will adjust the interest rate on your account whenever your account is two (2) Minimum Payments past 
+of this Agreement as it may be amended. Upon default we may close your Account to future purchases and advances and, to the extent not prohibited by governing  Law, demand immediate 
+due during any six (6) month period. We will change your interest rate (including any promotional rate) to a fixed rate of 17.95% ANNUAL PERCENTAGE RATE, which is a monthly 
+10.  Default: You will be in default if: (a) you fail to pay the Minimum Payment Due by the Payment Due Date: (b) if the Credit Union, in good faith, believes your ability to pay your account 
+payment of your entire Account balance, after giving you any notice and opportunity to cure the default if required by applicable law. 
+periodic rate of .04918%, on the first day of the billing cycle following that has two (2) Minimum Payments past due. After twelve (12) consecutive billing cycles of your account being paid 
+is impaired: (c) your ability to repay is materially reduced by a change in your employment, by an increase in your obligations, by bankruptcy or insolvency proceedings involving you, by 
+pursuant to the terms of your agreements with the Credit Union, we will change the interest rate to the rate that is then applicable to your account, which will become effective on the first day of 
+11.  Interest Rate Adjustment (Default Rate): 1st Advantage Federal Credit Union will adjust the interest rate on your account whenever your account is two (2) Minimum Payments 
+your death, or (for community property state residents only) by a change in marital status or domicile: (d) you exceed your credit limit without our permission: (e) you have made a false or 
+the billing cycle following the twelfth consecutive billing cycle. 
+past due during any six (6) month period. We will change your interest rate (including any promotional rate) to a fixed rate of 17.95% ANNUAL PERCENTAGE RATE, which is a 
+misleading statement to us in your application or otherwise: (f) you are in default under any other agreement with us: or (g) you fail to perform any of your other obligations under the terms 
+11.  Interest Rate Adjustment (Default Rate): 1st Advantage Federal Credit Union will adjust the interest rate on your account whenever your account is two (2) Minimum Payments past 
+of this Agreement as it may be amended. Upon default we may close your Account to future purchases and advances and, to the extent not prohibited by governing  Law, demand immediate 
+monthly periodic rate of 1.49583%, on the first day of the billing cycle following that has two (2) Minimum Payments past due. After twelve (12) consecutive billing cycles of your account 
+due during any six (6) month period. We will change your interest rate (including any promotional rate) to a fixed rate of 17.95% ANNUAL PERCENTAGE RATE, which is a monthly 
+being paid pursuant to the terms of your agreements with the Credit Union, we will change the interest rate to the rate that is then applicable to your account, which will become effective on 
+payment of your entire Account balance, after giving you any notice and opportunity to cure the default if required by applicable law. 
+periodic rate of .04918%, on the first day of the billing cycle following that has two (2) Minimum Payments past due. After twelve (12) consecutive billing cycles of your account being paid 
+the first day of the billing cycle following the twelfth consecutive billing cycle. 
+pursuant to the terms of your agreements with the Credit Union, we will change the interest rate to the rate that is then applicable to your account, which will become effective on the first day of 
+11.  Interest Rate Adjustment (Default Rate): 1st Advantage Federal Credit Union will adjust the interest rate on your account whenever your account is two (2) Minimum Payments 
+the billing cycle following the twelfth consecutive billing cycle. 
+12.  Member Liability: You agree to notify us immediately, orally or in writing, at 1st Advantage FCU, Box 2116, Newport News, VA 23609-0116 (800-359-7650 or 757-877-2444) of the 
+past due during any six (6) month period. We will change your interest rate (including any promotional rate) to a fixed rate of 17.95% ANNUAL PERCENTAGE RATE, which is a 
+loss, theft, or unauthorized use of your credit card. You may be liable for the unauthorized use of your credit card. You will not be liable for unauthorized use that occurs after you notify us of 
+monthly periodic rate of 1.49583%, on the first day of the billing cycle following that has two (2) Minimum Payments past due. After twelve (12) consecutive billing cycles of your account 
+the loss, theft, or possible unauthorized use. In any case your liability will not exceed $50 for unauthorized cash advances at ATMs. You will have no liability for unauthorized purchases made 
+being paid pursuant to the terms of your agreements with the Credit Union, we will change the interest rate to the rate that is then applicable to your account, which will become effective on 
+with your credit card. If you report your card Lost/Stolen, it is your responsibility to destroy any remaining cards with that number. If you find the Lost/Stolen card you should destroy the card 
+the first day of the billing cycle following the twelfth consecutive billing cycle. 
+and notify the Credit Union (or Credit Union Designee). If you see the card and it is recovered by an authorized VISA merchant (because it appears on the revoked Card List or the VISA 
+12.  Member Liability: You agree to notify us immediately, orally or in writing, at 1st Advantage FCU, Box 2116, Newport News, VA 23609-0116 (800-359-7650 or 757-877-2444) of the 
+Center tells the merchant to pick up card) then you will be liable for any fees or rewards resulting from your unauthorized use of the card. 
+loss, theft, or unauthorized use of your credit card. You may be liable for the unauthorized use of your credit card. You will not be liable for unauthorized use that occurs after you notify us of 
+13.  Collection Costs: You agree to pay all costs incurred by the Credit Union in collecting any amounts you owe or in enforcing or protecting the Credit Union rights under this Agreement, 
+the loss, theft, or possible unauthorized use. In any case your liability will not exceed $50 for unauthorized cash advances at ATMs. You will have no liability for unauthorized purchases made 
+with your credit card. If you report your card Lost/Stolen, it is your responsibility to destroy any remaining cards with that number. If you find the Lost/Stolen card you should destroy the card 
+including attorney’s fees and also those costs, expenses and attorney’s fees incurred in any appellate, bankruptcy and post-judgment proceedings, except as limited or prohibited by applicable law. 
+and notify the Credit Union (or Credit Union Designee). If you see the card and it is recovered by an authorized VISA merchant (because it appears on the revoked Card List or the VISA 
+Center tells the merchant to pick up card) then you will be liable for any fees or rewards resulting from your unauthorized use of the card. 
+13.  Collection Costs: You agree to pay all costs incurred by the Credit Union in collecting any amounts you owe or in enforcing or protecting the Credit Union rights under this Agreement, 
+including attorney’s fees and also those costs, expenses and attorney’s fees incurred in any appellate, bankruptcy and post-judgment proceedings, except as limited or prohibited by applicable law. 
+
+1. $5.00 per card - replacement of card fee on Lost/Stolen or damaged card. 
+2. $25.00 - Return Check fee for a check returned for nonpayment on your VISA account. 
+3. $25.00 - Late Payment fee 10 days after due date. 
+4. 1% of Amount after Conversion - Foreign Transaction Fee. 
+1. $5.00 per card - replacement of card fee on Lost/Stolen or damaged card. 
+2. $25.00 - Return Check fee for a check returned for nonpayment on your VISA account. 
+3. $25.00 - Late Payment fee 10 days after due date. 
+4. 1% of Amount after Conversion - Foreign Transaction Fee. 
+
+14.  Effect of Agreement: This Agreement is the contract which applies to all transactions on your account even though the sales, cash advance or credit slips you sign may contain different 
+terms. We may amend this Agreement from time to time by sending you the advance written notice required by law. Your use of the card thereafter will indicate your agreement to the 
+amendments. To the extent the law permits and we indicate in our notice, amendments will apply to your existing account balance as well as to future transactions. 
+15.  Military Lending Act (MLA):  Federal law provides important protections to members of the Armed Forces and their dependents relating to extensions of consumer credit. In 
+general, the cost of consumer credit to a member of the Armed Forces and his or her dependent may not exceed an annual percentage rate of 36 percent. This rate must include, as 
+applicable to the credit transaction or account: The costs associated with credit insurance premiums; fees for ancillary products sold in connection with the credit transaction; any 
+application fee charged (other than certain application fees for specified credit transactions or accounts); and any participation fee charged (other than certain participation fees for a 
+credit card account).  To obtain an oral disclosure, please call 800-359-7650. 
+ 
+Additional Terms of Visa® Agreement 
+To the extent not prohibited by applicable law, the terms, interpretation and enforcement of any claim or dispute arising under this Agreement, as well as all parties’ 
+rights and duties, will be governed by Virginia law regardless where you may reside or use your account. Further, this Agreement is the contract which governs 
+all transactions on your Account even though sales, cash advances, credit or other slips may contain different terms. You may not transfer or assign your Account 
+or Card to any other person. The Credit Union may assign or transfer this Account, your Account balance, or this Agreement to another person, who will have 
+all of our rights hereunder. This Agreement is binding on your heirs and legal representatives. If there are joint obligors or authorized users for this credit plan, 
+each of you will have the right to use the Account to obtain loans pursuant to the terms hereof. Each of you will be liable for all obligations owing on the Account 
+whether borrowed by you or otherwise and whether within or beyond the credit limit. Your liability will be joint and several. Either party has the right to cancel 
+this Agreement. Further, each of you are responsible for all amounts borrowed by any authorized users and other users may also be required to repay the amount 
+owed for charges they make; however, you remain, at all times, primarily responsible for all amounts owed. All Cards, billing statements and notices will be mailed 
+or delivered to the address given on the application for either applicant unless you direct otherwise in writing. If any law or judicial ruling makes any provision of 
+this Agreement unenforceable, the other provisions will remain in full force and effect. You agree that your Account will also be subject to all rules and regulations of 
+VISA U.S.A., Inc. as applicable. If there is any conflict between this Agreement and the rules and regulations of VISA U.S.A., Inc., the rules and regulations of VISA 
+U.S.A., Inc., will control. 
+Limitations of Lawsuits. You agree that any lawsuit based on a cause of action against us must be filed within one year from the date it arises, or you shall be barred 
+from filing any lawsuit. This limitation includes tort, contract and all other causes of action for which you and we may lawfully contract to limit as set forth in this 
+Agreement. 
+ 
+
+YOUR BILLING RIGHTS 
+
+KEEP THIS  NOTICE FOR FUTURE USE 
+
+ 
+
+ This notice contains important information about your rights and our responsibilities under the Fair Credit Billing Act.  Notify  us in case of errors or questions about your bill. 
+If you think your bill is wrong, or if you need more information about a transaction on your bill, write us on a separate sheet at the following address and send to Customer 
+Service, PO Box 31112, Tampa, FL 33631-3112, or call at 1-800-654-7728. Write to us as soon as possible. We must hear from you no later than 60 days after we sent you the 
+first bill on which the error or problem appeared. You can telephone us, but doing so will not preserve your rights. 
+In your letter, give us the following information: 
+•    Your name and account number. 
+•    The dollar amount of the suspected error. 
+•    Describe the error and explain, if you can, why you believe there is an error. If you need more information, describe the Item you are not sure about. 
+Your Rights and Our Responsibilities After We Receive Your Written Notice 
+We must acknowledge your letter within 30 days, unless we have corrected the error by then. Within 90 days, we must either correct the error or explain why we believe the 
+bill was correct. 
+•    After we receive your letter, we cannot try to collect any amount you question, or report you as a delinquent. We can continue to bill you for the amount you question, 
+
+including finance charges, and we can apply an unpaid amount against your credit limit. You do not have to pay any questioned amount while we are investigating, but you 
+are still obligated to pay the parts of your bill that are not in question. 
+•     If we find that we made a mistake on your bill, you will not have to pay any finance charges related to any questioned amount. If we didn’t make a mistake, you may 
+have to pay finance charges, and you will have to make up any missed payments on the questioned amount. In either case, we will send you a statement of the amount you 
+owe and the date that it is due. 
+•     If you fail to pay the amount that we think you owe, we may report you as delinquent. However, if our explanation does not satisfy you and you write to us within ten 
+days telling us that you still refuse to pay, we must tell anyone we report you to that you have a question about your bill. And, we must tell you the name of anyone we 
+reported you to. We must tell anyone we report you to that the matter has been settled between us when it finally is. 
+any tort or related claims arising from such purchases. 
+
+•    If we do not follow these rules, we cannot collect the first $50 of the questioned amount, even if your bill was correct. Furthermore, the Credit Union has no liability for 
+Special Rule for Credit Card Purchases 
+If you have a problem with the quality of property or services that you purchased with a credit card, and you have tried in good faith to correct the problem with the merchant, 
+you may have the right not to pay the remaining amount due on the property or services. There are two limitations on this right: (a) You must have made the purchase in your 
+home state or, if not within your home state, within 100 miles of your current mailing address; and (b) The purchase price must have been more than $50.  These limitations 
+do not apply if we own or operate the merchant, or if we mailed you the advertisement for the property or services. 
+
+9/17 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+",st advantage federal credit union visa platinum credit card agreement st advantage federal credit union visa platinum credit card agreement calculated adding spread prime rate index effect first business day month immediately preceding january april calculated adding spread prime rate index effect first business day month immediately preceding january april percentage rate calculated adding spread prime rate index effect time review finance percentage rate calculated adding spread prime rate index effect time review finance agreement word mean apply card sign agreement card mean visa platinum card duplicate renewal issue everyone receives sign us card issued agreement must member credit union account mean visa platinum credit card line credit account u u issuer mean credit union credit union designee responsibility issue card agree repay debt related fee finance charge arising use card card account example agreement word mean apply card sign agreement card mean visa platinum card responsible charge made spouse minor child also responsible charge made anyone else give card obligation pay duplicate renewal issue everyone receives sign us card issued agreement must member credit union account mean account balance continues even though agreement divorce decree judgment party may direct one person responsible pay account person using card jointly responsible charge make person sign card becomes party agreement also jointly responsible visa platinum credit card line credit account u u issuer mean credit union credit union designee charge account including responsibility issue card agree repay debt related fee finance charge arising use card card account example credit line approve application establish self replenishing line credit notify account issue card agree let responsible charge made spouse minor child also responsible charge made anyone else give card obligation pay account balance continues even though agreement divorce decree judgment party may direct one person responsible pay account account balance exceed approved credit line payment make account restore credit line amount payment applied principal person using card jointly responsible charge make person sign card becomes party agreement also jointly responsible may request increase credit line written application u must approved loan team giving written notice loan team may reduce credit charge account including line time time good cause revoke card terminate agreement good cause includes failure comply agreement adverse reevaluation credit worthiness may also terminate agreement time termination either u affect obligation pay account balance card remain property credit line approve application establish self replenishing line credit notify account issue card agree let must recover surrender u card upon request upon termination agreement account balance exceed approved credit line payment make account restore credit line amount payment applied principal using card financial service provided st advantage federal credit union may used transaction permitted law agree illegal use financial service may request increase credit line written application u must approved loan team giving written notice loan team may reduce credit line time time good cause revoke card terminate agreement good cause includes failure comply agreement adverse reevaluation deemed action default breach contract service related service may terminated st advantage federal credit union discretion agree illegal use occur waive right sue st advantage federal credit union illegal activity directly indirectly related also agree indemnify hold st credit worthiness may also terminate agreement time termination either u affect obligation pay account balance card remain property advantage federal credit union harmless suit legal action liability directly indirectly resulting illegal use make purchase cash advance present must recover surrender u card upon request upon termination agreement card participating visa plan merchant u another financial institution sign cash advance voucher imprinted card receive copy using card financial service provided st advantage federal credit union may used transaction permitted law agree illegal use financial service voucher retain verify monthly statement reserve right make reasonable charge photostatic copy may request deemed action default breach contract service related service may terminated st advantage federal credit union discretion foreign transaction fee ftf purchase cash withdrawal made foreign currency debited account u dollar exchange rate used convert foreign agree illegal use occur waive right sue st advantage federal credit union illegal activity directly indirectly related also agree indemnify hold st advantage federal credit union harmless suit legal action liability directly indirectly resulting illegal use make purchase cash advance present currency transaction u dollar either government mandated exchange rate wholesale exchange rate selected visa rate visa us particular transaction card participating visa plan merchant u another financial institution sign cash advance voucher imprinted card receive copy rate visa selects applicable currency day transaction processed rate may differ rate applicable date transaction occurred posted voucher retain verify monthly statement reserve right make reasonable charge photostatic copy may request account fee charged transaction completed outside united state cardholder country code differs merchant country code fee finance charge order avoid finance charge purchase made since last statement date must pay total new balance shown statement within day charged transaction completed foreign currency fee calculated based transaction amount converted u dollar fee charged statement closing date otherwise finance charge purchase calculated beginning next statement period previously billed unpaid purchase foreign transaction fee ftf purchase cash withdrawal made foreign currency debited account u dollar exchange rate used convert foreign except excluded date posted account cash advance always subject finance charge date transaction finance charge annual percentage rate currency transaction u dollar either government mandated exchange rate wholesale exchange rate selected visa rate visa us particular transaction finance charge order avoid finance charge purchase made since last statement date must pay total new balance shown rate visa selects applicable currency day transaction processed rate may differ rate applicable date transaction occurred posted account fee charged transaction completed outside united state cardholder country code differs merchant country code fee statement within day statement closing date otherwise finance charge purchase calculated beginning next statement finance charge order avoid finance charge purchase made since last statement date must pay total new balance shown statement within day charged transaction completed foreign currency fee calculated based transaction amount converted u dollar fee charged period previously billed unpaid purchase date posted account cash advance always subject finance charge date statement closing date otherwise finance charge purchase calculated beginning next statement period previously billed unpaid purchase july october finance charge applied average principal daily balance purchase cash advance account index increase decrease except excluded transaction interest rate based certain credit worthiness criterion may reviewed annually based credit history finance charge annual date posted account cash advance always subject finance charge date transaction finance charge annual percentage rate annual percentage rate monthly periodic rate increase decrease existing balance january april july october minimum spread prime rate index effect first business day month immediately preceding january april finance charge order avoid finance charge purchase made since last statement date must pay total new balance shown payment remains increase annual percentage rate increase number payment increase amount payment figure statement within day statement closing date otherwise finance charge purchase calculated beginning next statement finance charge account applying periodic rate average daily balance account including current transaction get average daily balance period previously billed unpaid purchase date posted account cash advance always subject finance charge date charge applied average principal daily balance purchase cash advance account index reviewed adjusted quarterly index increase take beginning balance account day add new purchase cash advance excluding unpaid finance charge subtract payment credit give u july october finance charge applied average principal daily balance purchase cash advance account index increase decrease decrease annual percentage rate monthly periodic rate increase decrease existing balance fixed rate balance prior variable rate conversion transaction interest rate based certain credit worthiness criterion may reviewed annually based credit history finance charge annual annual percentage rate monthly periodic rate increase decrease existing balance january april july october minimum daily balance add daily balance billing cycle divide total number day billing cycle give u average daily balance spread prime rate index effect first business day month immediately preceding january april grandfathered index increase decrease figure finance charge account applying monthly periodic rate average daily balance payment remains increase annual percentage rate increase number payment increase amount payment figure account including current transaction get average daily balance take beginning balance account day add new purchase cash advance finance charge account applying periodic rate average daily balance account including current transaction get average daily balance excluding unpaid finance charge subtract payment credit give u daily balance add daily balance billing cycle divide total charge applied average principal daily balance purchase cash advance account index reviewed adjusted quarterly index increase take beginning balance account day add new purchase cash advance excluding unpaid finance charge subtract payment credit give u number day billing cycle give u average daily balance decrease annual percentage rate monthly periodic rate increase decrease existing balance fixed rate balance prior variable rate conversion daily balance add daily balance billing cycle divide total number day billing cycle give u average daily balance fee grandfathered index increase decrease figure finance charge account applying monthly periodic rate average daily balance account including current transaction get average daily balance take beginning balance account day add new purchase cash advance excluding unpaid finance charge subtract payment credit give u daily balance add daily balance billing cycle divide total number day billing cycle give u average daily balance fee use inactive visa account purchase cash activity may closed without notice month activity monthly issuer send cardholder monthly interval determined issuer statement reflecting prior monthly period visa card related card transaction statement shall deemed correct accepted cardholder holder related card unless issuer notified contract writing within day mailing statement month must pay least minimum payment shown statement within day statement closing date line credit repaid follows either full use inactive visa account purchase cash activity may closed without notice month activity amount billed shall paid option installment equal least required minimum balance billed required minimum monthly payment shall greater b portion outstanding balance exceed credit limit plus amount due monthly issuer send cardholder monthly interval determined issuer statement reflecting prior monthly period visa card related card transaction payment allocation subject applicable law payment may applied owe credit union manner credit union chooses statement shall deemed correct accepted cardholder holder related card unless issuer notified contract writing within day mailing statement month must pay least minimum payment shown statement within day statement closing date line credit repaid follows either full security interest payment account secured security interest property securing obligation credit union whether existing amount billed shall paid option installment equal least required minimum balance billed required minimum monthly payment shall greater future except household good primary residence hereby grant credit union security interest property purchased credit b portion outstanding balance exceed credit limit plus amount due plan including purchase money security interest household good purchased extension credit upon account also hereby grant credit union pledge payment allocation subject applicable law payment may applied owe credit union manner credit union chooses share deposit may future credit union except deposit ira keogh account security interest shall secure faithful performance obligation arising agreement credit union shall right secured party accordance virginia security interest payment account secured security interest property securing obligation credit union whether existing commercial code applicable law future except household good primary residence hereby grant credit union security interest property purchased credit default default fail pay minimum payment due payment due date b credit union good faith belief ability pay account plan including purchase money security interest household good purchased extension credit upon account also hereby grant credit union pledge share deposit may future credit union except deposit ira keogh account security interest impaired c ability repay materially reduced change employment increase obligation bankruptcy insolvency proceeding involving shall secure faithful performance obligation arising agreement credit union shall right secured party accordance virginia death community property state resident change marital status domicile exceed credit limit without permission e made false commercial code applicable law misleading statement u application otherwise f default agreement u g fail perform obligation term interest rate adjustment default rate st advantage federal credit union adjust interest rate account whenever account two minimum payment past agreement may amended upon default may close account future purchase advance extent prohibited governing law demand immediate due six month period change interest rate including promotional rate fixed rate annual percentage rate monthly default default fail pay minimum payment due payment due date b credit union good faith belief ability pay account payment entire account balance giving notice opportunity cure default required applicable law periodic rate first day billing cycle following two minimum payment past due twelve consecutive billing cycle account paid impaired c ability repay materially reduced change employment increase obligation bankruptcy insolvency proceeding involving pursuant term agreement credit union change interest rate rate applicable account become effective first day interest rate adjustment default rate st advantage federal credit union adjust interest rate account whenever account two minimum payment death community property state resident change marital status domicile exceed credit limit without permission e made false billing cycle following twelfth consecutive billing cycle past due six month period change interest rate including promotional rate fixed rate annual percentage rate misleading statement u application otherwise f default agreement u g fail perform obligation term interest rate adjustment default rate st advantage federal credit union adjust interest rate account whenever account two minimum payment past agreement may amended upon default may close account future purchase advance extent prohibited governing law demand immediate monthly periodic rate first day billing cycle following two minimum payment past due twelve consecutive billing cycle account due six month period change interest rate including promotional rate fixed rate annual percentage rate monthly paid pursuant term agreement credit union change interest rate rate applicable account become effective payment entire account balance giving notice opportunity cure default required applicable law periodic rate first day billing cycle following two minimum payment past due twelve consecutive billing cycle account paid first day billing cycle following twelfth consecutive billing cycle pursuant term agreement credit union change interest rate rate applicable account become effective first day interest rate adjustment default rate st advantage federal credit union adjust interest rate account whenever account two minimum payment billing cycle following twelfth consecutive billing cycle member liability agree notify u immediately orally writing st advantage fcu box newport news va past due six month period change interest rate including promotional rate fixed rate annual percentage rate loss theft unauthorized use credit card may liable unauthorized use credit card liable unauthorized use occurs notify u monthly periodic rate first day billing cycle following two minimum payment past due twelve consecutive billing cycle account loss theft possible unauthorized use case liability exceed unauthorized cash advance atm liability unauthorized purchase made paid pursuant term agreement credit union change interest rate rate applicable account become effective credit card report card lost stolen responsibility destroy remaining card number find lost stolen card destroy card first day billing cycle following twelfth consecutive billing cycle notify credit union credit union designee see card recovered authorized visa merchant appears revoked card list visa member liability agree notify u immediately orally writing st advantage fcu box newport news va center tell merchant pick card liable fee reward resulting unauthorized use card loss theft unauthorized use credit card may liable unauthorized use credit card liable unauthorized use occurs notify u collection cost agree pay cost incurred credit union collecting amount owe enforcing protecting credit union right agreement loss theft possible unauthorized use case liability exceed unauthorized cash advance atm liability unauthorized purchase made credit card report card lost stolen responsibility destroy remaining card number find lost stolen card destroy card including attorney fee also cost expense attorney fee incurred appellate bankruptcy post judgment proceeding except limited prohibited applicable law notify credit union credit union designee see card recovered authorized visa merchant appears revoked card list visa center tell merchant pick card liable fee reward resulting unauthorized use card collection cost agree pay cost incurred credit union collecting amount owe enforcing protecting credit union right agreement including attorney fee also cost expense attorney fee incurred appellate bankruptcy post judgment proceeding except limited prohibited applicable law per card replacement card fee lost stolen damaged card return check fee check returned nonpayment visa account late payment fee day due date amount conversion foreign transaction fee per card replacement card fee lost stolen damaged card return check fee check returned nonpayment visa account late payment fee day due date amount conversion foreign transaction fee effect agreement agreement contract applies transaction account even though sale cash advance credit slip sign may contain different term may amend agreement time time sending advance written notice required law use card thereafter indicate agreement amendment extent law permit indicate notice amendment apply existing account balance well future transaction military lending act mla federal law provides important protection member armed force dependent relating extension consumer credit general cost consumer credit member armed force dependent may exceed annual percentage rate percent rate must include applicable credit transaction account cost associated credit insurance premium fee ancillary product sold connection credit transaction application fee charged certain application fee specified credit transaction account participation fee charged certain participation fee credit card account obtain oral disclosure please call additional term visa agreement extent prohibited applicable law term interpretation enforcement claim dispute arising agreement well party right duty governed virginia law regardless may reside use account agreement contract governs transaction account even though sale cash advance credit slip may contain different term may transfer assign account card person credit union may assign transfer account account balance agreement another person right hereunder agreement binding heir legal representative joint obligors authorized user credit plan right use account obtain loan pursuant term hereof liable obligation owing account whether borrowed otherwise whether within beyond credit limit liability joint several either party right cancel agreement responsible amount borrowed authorized user user may also required repay amount owed charge make however remain time primarily responsible amount owed card billing statement notice mailed delivered address given application either applicant unless direct otherwise writing law judicial ruling make provision agreement unenforceable provision remain full force effect agree account also subject rule regulation visa u inc applicable conflict agreement rule regulation visa u inc rule regulation visa u inc control limitation lawsuit agree lawsuit based cause action u must filed within one year date arises shall barred filing lawsuit limitation includes tort contract cause action may lawfully contract limit set forth agreement billing right keep notice future use notice contains important information right responsibility fair credit billing act notify u case error question bill think bill wrong need information transaction bill write u separate sheet following address send customer service po box tampa fl call write u soon possible must hear later day sent first bill error problem appeared telephone u preserve right letter give u following information name account number dollar amount suspected error describe error explain believe error need information describe item sure right responsibility receive written notice must acknowledge letter within day unless corrected error within day must either correct error explain believe bill correct receive letter cannot try collect amount question report delinquent continue bill amount question including finance charge apply unpaid amount credit limit pay questioned amount investigating still obligated pay part bill question find made mistake bill pay finance charge related questioned amount make mistake may pay finance charge make missed payment questioned amount either case send statement amount owe date due fail pay amount think owe may report delinquent however explanation satisfy write u within ten day telling u still refuse pay must tell anyone report question bill must tell name anyone reported must tell anyone report matter settled u finally tort related claim arising purchase follow rule cannot collect first questioned amount even bill correct furthermore credit union liability special rule credit card purchase problem quality property service purchased credit card tried good faith correct problem merchant may right pay remaining amount due property service two limitation right must made purchase home state within home state within mile current mailing address b purchase price must limitation apply operate merchant mailed advertisement property service
