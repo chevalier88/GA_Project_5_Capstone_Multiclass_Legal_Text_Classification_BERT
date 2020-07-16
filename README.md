@@ -19,3 +19,15 @@ https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-a
 * CPFB Dataset Source (Q1 2020 links):
 https://www.consumerfinance.gov/credit-cards/agreements/.
 https://files.consumerfinance.gov/a/assets/Credit_Card_Agreements_2020_Q1.zip
+
+### Progress Report - Capstone Update 3
+Do you have data fully in hand and if not, what blockers are you facing? Ans: I do, but because I'm using real life data from a corporate stakeholder
+Have you done a full EDA on all of your data?: Yes
+Have you begun the modeling process? How accurate are your predictions so far?: Yes, it's not the most accurate modelling as the granularity is lacking. 
+What blockers are you facing, including processing power, data acquisition, modeling difficulties, data cleaning, etc.? How can we help you overcome those challenges? The main blocker is finding a clearer way to delineate the individual topics
+Have you changed topics since your lightning talk? Since you submitted your Problem Statement and EDA? If so, do you have the necessary data in hand (and the requisite EDA completed) to continue moving forward? 
+Ans: The topic doesn't change but the dataset may have to live legislation
+What is your timeline for the next week and a half? What do you have to get done versus what would you like to get done?
+Ans: Learn more on NLP in particular abstractive summarization using Transformers.
+What topics do you want to discuss during your 1:1?
+Ans: not sure honestly - the onus is on me to learn newer content faster
