@@ -15,7 +15,15 @@
    "cell_type": "code",
    "execution_count": 2,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.2.0-rc0\n"
+     ]
+    }
+   ],
    "source": [
     "import numpy as np \n",
     "import pandas as pd\n",
@@ -25,10 +33,14 @@
     "from keras.preprocessing.text import Tokenizer\n",
     "from keras.preprocessing.sequence import pad_sequences\n",
     "from keras.models import Sequential\n",
-    "from keras.layers import Dense, Embedding, LSTM, SpatialDropout1D\n",
+    "from keras.layers import Dense, Flatten, LSTM, Dropout, Activation, Embedding, Bidirectional\n",
     "from keras.utils.np_utils import to_categorical\n",
     "from keras.callbacks import EarlyStopping\n",
     "from keras.layers import Dropout\n",
+    "\n",
+    "import tensorflow as tf\n",
+    "print(tf.__version__)\n",
+    "\n",
     "\n",
     "import re\n",
     "\n",
@@ -43,12 +55,468 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 3,
    "metadata": {},
    "outputs": [],
    "source": [
-    "df "
+    "df= pd.read_csv(\"../data/df_clean_final.csv\")"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Unnamed: 0</th>\n",
+       "      <th>clause_text</th>\n",
+       "      <th>clause_type</th>\n",
+       "      <th>clause_word_count</th>\n",
+       "      <th>bag_cleaned_text</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>9741</th>\n",
+       "      <td>9741</td>\n",
+       "      <td>In the performance of such services as describ...</td>\n",
+       "      <td>2</td>\n",
+       "      <td>19</td>\n",
+       "      <td>performance services described insurer shall c...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9742</th>\n",
+       "      <td>9742</td>\n",
+       "      <td>It shall comply with all applicable laws relat...</td>\n",
+       "      <td>2</td>\n",
+       "      <td>14</td>\n",
+       "      <td>shall comply applicable laws relating performa...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9743</th>\n",
+       "      <td>9743</td>\n",
+       "      <td>JCR agrees to comply with all applicable laws,...</td>\n",
+       "      <td>2</td>\n",
+       "      <td>23</td>\n",
+       "      <td>jcr agrees comply applicable laws rules regula...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9744</th>\n",
+       "      <td>9744</td>\n",
+       "      <td>Landlord and Tenant shall each do all acts nec...</td>\n",
+       "      <td>2</td>\n",
+       "      <td>43</td>\n",
+       "      <td>landlord tenant shall acts necessary comply ap...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>9745</th>\n",
+       "      <td>9745</td>\n",
+       "      <td>Licensee acknowledges that this Agreement does...</td>\n",
+       "      <td>2</td>\n",
+       "      <td>90</td>\n",
+       "      <td>licensee acknowledges agreement constitute lic...</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "      Unnamed: 0                                        clause_text  \\\n",
+       "9741        9741  In the performance of such services as describ...   \n",
+       "9742        9742  It shall comply with all applicable laws relat...   \n",
+       "9743        9743  JCR agrees to comply with all applicable laws,...   \n",
+       "9744        9744  Landlord and Tenant shall each do all acts nec...   \n",
+       "9745        9745  Licensee acknowledges that this Agreement does...   \n",
+       "\n",
+       "      clause_type  clause_word_count  \\\n",
+       "9741            2                 19   \n",
+       "9742            2                 14   \n",
+       "9743            2                 23   \n",
+       "9744            2                 43   \n",
+       "9745            2                 90   \n",
+       "\n",
+       "                                       bag_cleaned_text  \n",
+       "9741  performance services described insurer shall c...  \n",
+       "9742  shall comply applicable laws relating performa...  \n",
+       "9743  jcr agrees comply applicable laws rules regula...  \n",
+       "9744  landlord tenant shall acts necessary comply ap...  \n",
+       "9745  licensee acknowledges agreement constitute lic...  "
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "df.tail()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#tokenizing the data \n",
+    "vocabulary_size = 500000\n",
+    "max_sequence = 500\n",
+    "\n",
+    "tokenizer = Tokenizer(num_words= vocabulary_size)\n",
+    "tokenizer.fit_on_texts(df['bag_cleaned_text'].values)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Found 12475 unique tokens.\n"
+     ]
+    }
+   ],
+   "source": [
+    "word_index = tokenizer.word_index\n",
+    "print('Found %s unique tokens.' % len(word_index))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "X = tokenizer.texts_to_sequences(df[\"bag_cleaned_text\"].values)\n",
+    "X = pad_sequences(X, maxlen= max_sequence)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Shape of data tensor: (9741, 500)\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Shape of data tensor:', X.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Shape of target: (9741,)\n"
+     ]
+    }
+   ],
+   "source": [
+    "y = df[\"clause_type\"]\n",
+    "print('Shape of target:', y.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# # The maximum number of words to be used. (most frequent)\n",
+    "# MAX_NB_WORDS = 1200000\n",
+    "# # Max number of words in each clause.\n",
+    "# MAX_SEQUENCE_LENGTH = 500\n",
+    "# # This is fixed.\n",
+    "# EMBEDDING_DIM = 100\n",
+    "\n",
+    "# tokenizer = Tokenizer(num_words=MAX_NB_WORDS, filters='!\"#$%&()*+,-./:;<=>?@[\\]^_`{|}~', lower=True)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Found 12475 unique tokens.\n"
+     ]
+    }
+   ],
+   "source": [
+    "tokenizer.fit_on_texts(df['bag_cleaned_text'].values)\n",
+    "word_index = tokenizer.word_index\n",
+    "print('Found %s unique tokens.' % len(word_index))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Shape of data tensor: (9741, 500)\n"
+     ]
+    }
+   ],
+   "source": [
+    "X = tokenizer.texts_to_sequences(df['bag_cleaned_text'].values)\n",
+    "X = pad_sequences(X, maxlen=MAX_SEQUENCE_LENGTH)\n",
+    "print('Shape of data tensor:', X.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Shape of label tensor: (9741, 3)\n"
+     ]
+    }
+   ],
+   "source": [
+    "y = pd.get_dummies(df['clause_type']).values\n",
+    "print('Shape of label tensor:', y.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(8766, 500) (8766, 3)\n",
+      "(975, 500) (975, 3)\n"
+     ]
+    }
+   ],
+   "source": [
+    "X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.10, random_state = 42, stratify = y)\n",
+    "print(X_train.shape,y_train.shape)\n",
+    "print(X_test.shape,y_test.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "model = Sequential()\n",
+    "\n",
+    "model.add(Embedding(MAX_NB_WORDS, EMBEDDING_DIM))\n",
+    "model.add(Dropout(0.5))\n",
+    "model.add(Bidirectional(LSTM(EMBEDDING_DIM)))\n",
+    "model.add(Dense(3, activation='softmax'))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Model: \"sequential_1\"\n",
+      "_________________________________________________________________\n",
+      "Layer (type)                 Output Shape              Param #   \n",
+      "=================================================================\n",
+      "embedding_1 (Embedding)      (None, None, 100)         120000000 \n",
+      "_________________________________________________________________\n",
+      "dropout_1 (Dropout)          (None, None, 100)         0         \n",
+      "_________________________________________________________________\n",
+      "bidirectional_1 (Bidirection (None, 200)               160800    \n",
+      "_________________________________________________________________\n",
+      "dense_1 (Dense)              (None, 3)                 603       \n",
+      "=================================================================\n",
+      "Total params: 120,161,403\n",
+      "Trainable params: 120,161,403\n",
+      "Non-trainable params: 0\n",
+      "_________________________________________________________________\n",
+      "None\n"
+     ]
+    }
+   ],
+   "source": [
+    "opt = tf.keras.optimizers.Adam(lr=0.001, decay=1e-6)\n",
+    "\n",
+    "model.compile(loss='sparse_categorical_crossentropy',\n",
+    "              optimizer=opt,\n",
+    "              metrics=['accuracy'],)\n",
+    "\n",
+    "print(model.summary())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# num_epochs = 10\n",
+    "# history = model.fit(X_train, y_train,\n",
+    "#                     epochs=num_epochs, \n",
+    "#                     validation_data=(X_test, y_test), \n",
+    "#                     verbose=2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Model: \"sequential\"\n",
+      "_________________________________________________________________\n",
+      "Layer (type)                 Output Shape              Param #   \n",
+      "=================================================================\n",
+      "embedding (Embedding)        (None, 500, 100)          120000000 \n",
+      "_________________________________________________________________\n",
+      "spatial_dropout1d (SpatialDr (None, 500, 100)          0         \n",
+      "_________________________________________________________________\n",
+      "lstm (LSTM)                  (None, 100)               80400     \n",
+      "_________________________________________________________________\n",
+      "dense (Dense)                (None, 3)                 303       \n",
+      "=================================================================\n",
+      "Total params: 120,080,703\n",
+      "Trainable params: 120,080,703\n",
+      "Non-trainable params: 0\n",
+      "_________________________________________________________________\n",
+      "None\n"
+     ]
+    }
+   ],
+   "source": [
+    "# model = Sequential()\n",
+    "\n",
+    "# model.add(Embedding(MAX_NB_WORDS, EMBEDDING_DIM, input_length=X.shape[1]))\n",
+    "# model.add(SpatialDropout1D(0.2))\n",
+    "# model.add(LSTM(100, dropout=0.2, recurrent_dropout=0.2))\n",
+    "# model.add(Dense(3, activation='softmax'))\n",
+    "\n",
+    "# model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])\n",
+    "# print(model.summary())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# epochs = 10\n",
+    "# batch_size = 512\n",
+    "\n",
+    "# history = model.fit(X_train, y_train, epochs=epochs,\n",
+    "#                     batch_size=batch_size,\n",
+    "#                     validation_data=(X_test, y_test))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -56,18 +524,6 @@
    "display_name": "Python 3",
    "language": "python",
    "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.6"
   }
  },
  "nbformat": 4,
