@@ -1,33 +1,35 @@
-# Capstone Project: Using NLP to Summarize Contracts
+# Capstone Project: Multiclass Text Classification of Contract Clauses
+by Graham James Lim
+
 Capstone Project Repository for General Assembly's DSI15 Machine Learning Course.
 
 ## Problem Statement 
-Contracts can be long, dense and inaccessible, and a quick way to summarize the topics can give at least a good bird's eye view for legal stakeholders.
+In this project, we will take a deep dive into legal corpora in the form of contractual clauses. 
 
-Can we use NLP models like Transformers or LDA (TBC) to summarize or model the topics of a contract's content? We start off with a single sample random contract to test a single use case, but we will eventually be relying on a large corpus of over 3000 `.pdf` US credit card agreement contracts from Q1 2020 downloaded from America's Consumer Financial Protection Bureau ("CFPB"). This folder has a total size of over 1GB.
+Contracts can be dense, verbose and inaccessible. This is because it is written in legalese, or techno-legal language that people have no choice but to have to make sense of in commerce. This can become very unruly when one has multiple contracts and hundreds of clauses to pour over, not just for lawyers, but for compliance professionals and business stakeholders generally.
 
-To measure success, we will use perplexity and coherence, which are topic modelling classification metrics.
+Thus, the classification of legal clauses via machine learning can be very useful to trawl through what is often seen as a necessary evil. Are we able to utilize machine learning to classify contract clauses easily? The short answer is yes.
 
-*Perplexity* captures how surprised a model is of new data it has not seen before, and is measured as the normalized log-likelihood of a held-out test set - how well does the model represent or reproduce the statistics of the held-out data?
+## Web Scraping
+Our first task is to scrape enough contract clauses from 
 
-*Topic Coherence* measures score a single topic by measuring the degree of semantic similarity between high scoring words in the topic. These measurements help distinguish between topics that are semantically interpretable topics and topics that are artifacts of statistical inference. 
+## EDA
+We observed the basic textual characteristics of contracts by analyzing word counts, clause types and top words and bigrams. 
 
-* Initial Code and Sample Contract adapted from Oguejio Chibueze's NLP modelling article:
-https://towardsdatascience.com/nlp-for-topic-modeling-summarization-of-legal-documents-8c89393b1534
+We then explored common conceptual topics in contracts using spaCy, Blackstone, and LDA topic modelling. We found that some contractual clauses, like warranties and support obligations, can overlap. On the other hand, clauses like compliance clauses can be written with enough distinct word vectors that they are unique enough to be topics unto themselves.
+
+We also realized that Bag-of-Words models are still strong enough to classify multiclass text problems, including legal corpora. Our SVC model outperformed every other sklearn-type model at `0.947` accuracy.
+
+## The Limitations of Bag-of-Words vs Dependency Parsing and Sequences
+However, we highlighted its drawback as being unnatural and not intuitive in terms of how people actually read documents. In the case of highly correlated word vectors in legal corpora, we underlined the mutual dependency that words have with each other. For this, we utilized displaCy to visualize this relationship through Dependency Parsing.
+
+We concluded the project by exploring a Bi-directional Neural Network Model utilizing Transformers specifically developed for these types of NLP problems called `BERT`, which was even more accurate than the SVC Model, and seems to come very close to what humans do in terms of comprehending words contextually and interdependently.
+
+* Law Insider - source of contract clauses (premium membership required): https://www.lawinsider.com
+* BERT explanation: https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270
+* BERT visualization: https://github.com/jessevig/bertviz
+* spaCy: https://spacy.io
+* Blackstone - NLP Legal Project by The Incorporated Council of Law Reporting for England and Wales: 
+https://research.iclr.co.uk/blackstone
 * Topic Modelling metrics explanation:
 https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-allocation-lda-7d57484bb5d0
-* CPFB Dataset Source (Q1 2020 links):
-https://www.consumerfinance.gov/credit-cards/agreements/.
-https://files.consumerfinance.gov/a/assets/Credit_Card_Agreements_2020_Q1.zip
-
-### Progress Report - Capstone Update 3
-Do you have data fully in hand and if not, what blockers are you facing? Ans: I do, but because I'm using real life data from a corporate stakeholder
-Have you done a full EDA on all of your data?: Yes
-Have you begun the modeling process? How accurate are your predictions so far?: Yes, it's not the most accurate modelling as the granularity is lacking. 
-What blockers are you facing, including processing power, data acquisition, modeling difficulties, data cleaning, etc.? How can we help you overcome those challenges? The main blocker is finding a clearer way to delineate the individual topics
-Have you changed topics since your lightning talk? Since you submitted your Problem Statement and EDA? If so, do you have the necessary data in hand (and the requisite EDA completed) to continue moving forward? 
-Ans: The topic doesn't change but the dataset may have to live legislation
-What is your timeline for the next week and a half? What do you have to get done versus what would you like to get done?
-Ans: Learn more on NLP in particular abstractive summarization using Transformers.
-What topics do you want to discuss during your 1:1?
-Ans: not sure honestly - the onus is on me to learn newer content faster
