@@ -11,7 +11,7 @@ Contracts can be dense, verbose and inaccessible. This is because it is written 
 Thus, the classification of legal clauses via machine learning can be very useful to trawl through what is often seen as a necessary evil. Are we able to utilize machine learning to classify contract clauses easily? The short answer is yes.
 
 ## Web Scraping
-Our first task is to scrape enough contract clauses from 
+Our first task is to scrape enough contract clauses from Lawinsider.com. This is a website that functions like a "wikipedia" of contract clauses, categorized by clause type. To achieve this, I wrote blocks of code using Selenium that would scrape clauses from infinitely scrolling web pages in the parent site.
 
 ## EDA
 We observed the basic textual characteristics of contracts by analyzing word counts, clause types and top words and bigrams. 
