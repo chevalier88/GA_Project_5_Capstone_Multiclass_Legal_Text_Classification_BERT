@@ -3,7 +3,7 @@ by Graham James Lim
 
 Capstone Project Repository for General Assembly's DSI15 Machine Learning Course.
 
-<img src="../images/displacy_sample.png">
+<img src="/images/displacy_sample.png">
 
 ## Problem Statement 
 In this project, we will take a deep dive into legal corpora in the form of contractual clauses. 
