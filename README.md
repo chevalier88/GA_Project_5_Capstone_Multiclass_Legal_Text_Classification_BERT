@@ -3,6 +3,8 @@ by Graham James Lim
 
 Capstone Project Repository for General Assembly's DSI15 Machine Learning Course.
 
+<img src="../images/displacy_sample.png">
+
 ## Problem Statement 
 In this project, we will take a deep dive into legal corpora in the form of contractual clauses. 
 
@@ -23,7 +25,7 @@ We also realized that Bag-of-Words models are still strong enough to classify mu
 ## The Limitations of Bag-of-Words vs Dependency Parsing and Sequences
 However, we highlighted its drawback as being unnatural and not intuitive in terms of how people actually read documents. In the case of highly correlated word vectors in legal corpora, we underlined the mutual dependency that words have with each other. For this, we utilized displaCy to visualize this relationship through Dependency Parsing.
 
-We concluded the project by exploring a Bi-directional Neural Network Model utilizing Transformers specifically developed for these types of NLP problems called `BERT`, which was even more accurate than the SVC Model, and seems to come very close to what humans do in terms of comprehending words contextually and interdependently.
+We concluded the project by exploring a Bi-directional Neural Network Model utilizing Transformers specifically developed for these types of NLP problems called `BERT`, which was even more accurate than the SVC Model at `0.965`, and seems to come very close to what humans do in terms of comprehending words contextually and interdependently.
 
 * Law Insider - source of contract clauses (premium membership required): https://www.lawinsider.com
 * BERT explanation: https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270
